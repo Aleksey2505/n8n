@@ -1,0 +1,8 @@
+FROM n8nio/n8n:latest
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=admin
+ENV N8N_BASIC_AUTH_PASSWORD=admin123
+
+# Это важно: указывать порт 5678
+EXPOSE 5678
